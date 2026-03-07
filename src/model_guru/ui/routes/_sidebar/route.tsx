@@ -1,7 +1,7 @@
 import SidebarLayout from "@/components/apx/sidebar-layout";
 import { createFileRoute, Link, useLocation } from "@tanstack/react-router";
 import { cn } from "@/lib/utils";
-import { User } from "lucide-react";
+import { Wand2, User } from "lucide-react";
 import {
   SidebarGroup,
   SidebarGroupContent,
@@ -17,6 +17,12 @@ function Layout() {
   const location = useLocation();
 
   const navItems = [
+    {
+      to: "/",
+      label: "ModelGuru",
+      icon: <Wand2 size={16} />,
+      match: (path: string) => path === "/",
+    },
     {
       to: "/profile",
       label: "Profile",
