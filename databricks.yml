@@ -1,5 +1,5 @@
 bundle:
-  name: model-guru
+  name: model-genie
 
 sync:
   include:
@@ -11,9 +11,9 @@ artifacts:
 
 resources:
   apps:
-    model-guru-app:
-      name: "model-guru"
-      description: "model-guru created with apx"
+    model-genie-app:
+      name: "model-genie"
+      description: "Model Genie - business questions in, semantic models out"
       source_code_path: ./.build
       user_api_scopes:
         - sql.statement-execution

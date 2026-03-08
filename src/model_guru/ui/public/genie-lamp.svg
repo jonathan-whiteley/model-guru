@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Spout flame/smoke -->
-  <path d="M48 14c-1 3-4 4-3 8" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+  <!-- Smoke wisps -->
+  <path d="M15.5 2c-.4 1.2-1.6 1.8-1.2 3.2.2.6.8 1 .6 1.8" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M17.5 3c-.3.8-1 1.2-.8 2.2" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
   <!-- Spout -->
-  <path d="M30 30 Q38 26 46 22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <path d="M13 12.5L18 9.5c.4-.2.6.1.4.4L16 12.5H13z"/>
   <!-- Lamp body -->
-  <ellipse cx="24" cy="38" rx="16" ry="8" fill="none" stroke="currentColor" stroke-width="3"/>
-  <!-- Lid dome -->
-  <path d="M14 30 Q24 20 34 30" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="9.5" cy="15" rx="6.5" ry="3.5"/>
+  <!-- Lid -->
+  <path d="M5.5 11.5C5.5 11.5 7 9 9.5 9s4 2.5 4 2.5H5.5z"/>
   <!-- Lid knob -->
-  <circle cx="24" cy="22" r="2" fill="currentColor"/>
+  <circle cx="9.5" cy="8.2" r="1"/>
   <!-- Handle -->
-  <path d="M8 34 Q2 28 8 22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <path d="M3 13.5C1.5 13 .8 12 1.2 10.8c.4-1 1.5-1.5 2.5-1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
   <!-- Base -->
-  <path d="M12 46 L36 46" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-  <!-- Base stem -->
-  <path d="M18 46 L16 50 L32 50 L30 46" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M6 18.5l-.8 1.5h8.6l-.8-1.5"/>
+  <ellipse cx="9.5" cy="20.5" rx="4.5" ry="1"/>
 </svg>

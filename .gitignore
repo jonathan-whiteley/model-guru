@@ -38,3 +38,13 @@ node_modules/
 
 # UI dist folder
 src/model_guru/__dist__/
+
+# IDE
+.vscode/
+.idea/
+
+# Build artifacts
+.build/
+
+# Scratch / prompt files
+prompt_*.md

@@ -17,7 +17,10 @@ export function WizardShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="container mx-auto py-8 max-w-5xl px-4">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">ModelGenie</h1>
+        <h1 className="text-3xl font-bold mb-2 flex items-center gap-3">
+          <img src="/logo.svg" alt="Databricks" className="h-8 w-8" />
+          Model Genie
+        </h1>
         <p className="text-muted-foreground mb-4">Business questions in, semantic models out. Rub the lamp below to get started.</p>
         <div className="flex items-center gap-1">
           {STEPS.map((s, i) => (

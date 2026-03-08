@@ -8,23 +8,23 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 function GenieLampIcon({ className }: { className?: string }) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className={className} fill="currentColor">
-      {/* Spout - long curved pouring lip on the left */}
-      <path d="M48 240c0-16 8-28 24-36l80-40c8-4 16-2 16 8v24c0 8-4 14-12 18l-60 30c-4 2-8 6-8 12v8c0 8 4 14 12 16l56 16h92v-56H144c-48 0-96-32-96-64v64z" opacity="0.95"/>
-      {/* Lamp body - big round pot */}
-      <ellipse cx="296" cy="296" rx="136" ry="80" />
-      {/* Handle - curly C shape on the right */}
-      <path d="M432 264c24 0 44 16 44 40s-20 40-44 40" fill="none" stroke="currentColor" strokeWidth="28" strokeLinecap="round"/>
-      {/* Lid rim - wide band on top of body */}
-      <rect x="216" y="208" width="160" height="20" rx="10"/>
-      {/* Lid dome */}
-      <path d="M248 208c0 0 16-48 48-48s48 48 48 48z"/>
-      {/* Lid ball finial */}
-      <circle cx="296" cy="148" r="16"/>
-      {/* Pedestal neck */}
-      <path d="M264 376l-8 24h80l-8-24z"/>
-      {/* Pedestal base */}
-      <ellipse cx="296" cy="408" rx="56" ry="16"/>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className={className} fill="currentColor">
+      {/* Smoke wisps */}
+      <path d="M15.5 2c-.4 1.2-1.6 1.8-1.2 3.2.2.6.8 1 .6 1.8" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
+      <path d="M17.5 3c-.3.8-1 1.2-.8 2.2" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/>
+      {/* Spout */}
+      <path d="M13 12.5L18 9.5c.4-.2.6.1.4.4L16 12.5H13z"/>
+      {/* Lamp body */}
+      <ellipse cx="9.5" cy="15" rx="6.5" ry="3.5"/>
+      {/* Lid */}
+      <path d="M5.5 11.5C5.5 11.5 7 9 9.5 9s4 2.5 4 2.5H5.5z"/>
+      {/* Lid knob */}
+      <circle cx="9.5" cy="8.2" r="1"/>
+      {/* Handle */}
+      <path d="M3 13.5C1.5 13 .8 12 1.2 10.8c.4-1 1.5-1.5 2.5-1" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      {/* Base */}
+      <path d="M6 18.5l-.8 1.5h8.6l-.8-1.5"/>
+      <ellipse cx="9.5" cy="20.5" rx="4.5" ry="1"/>
     </svg>
   );
 }

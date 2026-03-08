@@ -1,10 +1,10 @@
-# ModelGuru
+# Model Genie
 
-A Databricks App that shifts Genie space creation from bottom-up (data first) to top-down (questions first). Users input business questions, and ModelGuru extracts measures, dimensions, and filters, discovers matching Unity Catalog tables, maps columns, and generates a deployable Metric View YAML semantic model.
+A Databricks App that shifts Genie space creation from bottom-up (data first) to top-down (questions first). Users input business questions, and Model Genie extracts measures, dimensions, and filters, discovers matching Unity Catalog tables, maps columns, and generates a deployable Metric View YAML semantic model.
 
 ## How It Works
 
-ModelGuru guides you through a 6-step wizard:
+Model Genie guides you through a 6-step wizard:
 
 1. **Input Questions** - Paste or upload (CSV/XLSX) 10-20 business questions
 2. **Parse & Extract** - LLM extracts measures, dimensions, and filters with highlighted annotations
